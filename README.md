@@ -30,10 +30,17 @@ Central as [`io.github.elfifo4:kosherkotlin`](https://central.sonatype.com/artif
 toolchain and dependency upgrades, and calendar fixes backed by regression tests against the
 reference Java implementation.
 
-### Bible Contest – Tanakh Quiz (HaRishon BaChidon) — Android app, owner and sole developer
+### Bible Contest – Tanakh Quiz (HaRishon BaChidon) — Kotlin Multiplatform app, owner and sole developer
 
-An educational quiz app for Israel's Bible Contest, written in Kotlin and published on
-[Google Play](https://play.google.com/store/apps/details?id=com.eladfinish.jewishbiblecontest).
+An educational quiz app for Israel's Bible Contest. It started as an Android-only app and was
+rewritten with Kotlin Multiplatform and Compose Multiplatform, so it now runs from a shared
+codebase on every major platform:
+
+- Android: [Google Play](https://play.google.com/store/apps/details?id=com.eladfinish.jewishbiblecontest)
+- iOS: [App Store](https://apps.apple.com/app/id6778063844)
+- Windows: [Microsoft Store](https://apps.microsoft.com/detail/9NNCX03BDPXR)
+- Web: [biblecontest-app.web.app](https://biblecontest-app.web.app/app/)
+
 Its question data comes from [chidon-hatanach-data](https://github.com/elfifo4/chidon-hatanach-data),
 a public dataset I extract from the official Ministry of Education questionnaires.
 
